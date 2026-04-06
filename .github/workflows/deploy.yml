@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/compliance-api:latest
+        tags: ${{ secrets.JHEX93  }}/compliance-api:latest
