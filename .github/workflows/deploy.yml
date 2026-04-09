@@ -19,7 +19,8 @@ jobs:
     
     - name: Install dependencies for tests
       run: |
-        pip install pytest httpx starlette==0.27.0 pandas numpy scikit-learn xgboost joblib
+        pip install --upgrade pip
+        pip install fastapi uvicorn pandas numpy scikit-learn xgboost joblib pytest httpx starlette==0.27.0 mlflow
     
     - name: Run tests
       run: |
